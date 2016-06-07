@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-text-wiki",
+        "command": "atom-text-wiki:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-text-wiki",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-text-wiki:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
